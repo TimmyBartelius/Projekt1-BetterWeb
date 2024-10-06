@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+.titel {
+  margin: 100px;
+}
+.schema {
+  display: grid;
+  grid-template-columns: 150px repeat(5, 1fr); /* Första kolumnen för tider, resten för veckodagar */
+  gap: 1px; /* Mellanrum mellan celler */
+  background-color: #333;
+  color: #333;
+}
+.visuellt-schema {
+  margin: 4rem;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.header,
+.seminarium,
+.time {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+@media (max-width: 768px) {
+  .schedule {
+    grid-template-columns: 100px repeat(5, 1fr); /* Ändra kolumnbredd på mindre skärmar */
+  }
+}
