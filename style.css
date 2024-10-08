@@ -21,21 +21,22 @@ body {
   background-color: #4caf50;
   color: white;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
 }
 
 .header,
-.seminarium,
-.time {
+.seminarium {
   background-color: #fff;
   padding: 10px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 3, 1fr;
+}
+.time{
+	display: grid;
+	grid-template-columns: 3, 1fr;
+	padding: 10px;
+	background-color: #fff;
 }
 .info-text {
   display: flex;
