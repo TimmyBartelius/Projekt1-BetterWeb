@@ -8,10 +8,13 @@ body {
 .header{
 	background-color: black;
 	box-shadow: gray;
-	display: flex;
-	justify-content: top;
-	align-items: center;
-	text-decoration: white;
+	display: grid;
+	grid-template-rows: 3, 1fr;
+	row-gap: 1fr;
+	color: white;
+	padding: 10px
+	
+
 }
 .titel {
 	display: flex;
