@@ -43,9 +43,3 @@ body {
   align-items: center;
   margin: 1rem;
 }
-
-@media (max-width: 768px) {
-  .schedule {
-    grid-template-columns: 100px repeat(5, 1fr); /* Ändra kolumnbredd på mindre skärmar */
-  }
-}
