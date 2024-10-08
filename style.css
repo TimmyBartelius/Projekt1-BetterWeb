@@ -1,50 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  height: 100vh;
-}
 .header{
-	background-color: black;
-	box-shadow: gray;
-	display: grid;
-	grid-template-rows: 3, 1fr;
-	row-gap: 1fr;
-	color: white;
-	padding: 10px
-	
-
+	border: 1fr;
+	border-color: black;
+	text-align: center;
 }
-.titel {
-	display: flex;
-	justify-content: center;
-  	align-items: center;
-}
-.info-text{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.schema {
-  display: grid;
-  grid-template-columns: 150px repeat(5, 1fr); 
-  gap: 1px; 
-  background-color: #333;
-  color: #333;
-}
-.visuellt-schema {
-  margin: 4rem;
-  background-color: #4caf50;
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-}
-.seminarium {
-  background-color: #fff;
-  padding: 10px;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 3, 1fr;
-}
-
