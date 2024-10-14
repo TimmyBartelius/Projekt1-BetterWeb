@@ -1,7 +1,7 @@
 body {
   background-color: rgb(96, 96, 206);
   margin: 0;
-  font-size: clamp(1rem 50rem 100rem);
+  font-size: clamp(4rem 50rem 100rem);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 /* HOME */
@@ -23,7 +23,7 @@ body {
 }
 /* HEADER */
 .menu {
-  background-color: #a81c1c;
+  background-color: #af4c4c;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@ li {
 }
 /* FOOTER */
 .footer {
-  background-color: #a81c1c;
+  background-color: #af4c4c;
   padding: 1rem;
   display: flex;
   flex-direction: row;

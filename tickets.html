@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schema</title>
+    <link rel="stylesheet" href="style-tickets.css" />
+    <link rel="stylesheet" href="style.css" />
+    <header>
+        <nav class="menu">
+          <div class="logo1"><a href="index.html"><img src="assets/logo.png" alt="logotype" /></a>
+          </div>
+          <ul>
+            <li>
+              <div class="schedule">
+                <a href="schedule.html">
+                <img src="assets/schedule.png" alt="schedule"
+              /></a>
+            </div>
+            </li>
+            <li>
+             <div class="about"> 
+              <a href="about.html">
+              <img src="assets/about.png" alt="about" />
+            </a>
+          </div>
+            </li>
+            <li>
+              <div class="sponsors">
+              <a href="sponsors.html"
+                ><img src="assets/sponsors.png" alt="sponsors"
+              /></a>
+            </div>
+            </li>
+            <li>
+              <a href="guests.html"><img src="assets/guests.png" alt="lecturers" /></a>
+            </li>
+          </ul>
+    
+          <div>
+            <a href="tickets.html"
+              ><img src="assets/form.png" alt="application"
+            /></a>
+          </div>
+        </nav>
+</header>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+        <label for="name">För- och Efternamn:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">E-postadress:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="adress">Hemadress:</label>
+        <input type="adress" id="adress" name="adress" required>
+        
+        <label for="allergies">Allergier?</label>
+        <textarea id="allergies" name="allergies" required>
+        </textarea>
+    </form>
+    <form class="form2" action="/submit" method="post">
+        <label for="ja"> Vill du ha lunch?</label>
+        <p>Ja</p><input id="ja" type="radio" name="ja" value="ja">
+        <label for="nej"></label>
+        <p>Nej</p><input id="nej" type="radio" name="nej" value="nej">
+        
+        <label for="days"> Vilka dagar vill du besöka eventet?</label>
+        <p>18:e</p><input id="date1" type="checkbox">
+        <p>19:e</p><input id="date2" type="checkbox">
+        <p>20:e</p><input id="date3" type="checkbox">
+    </form>
+
+    <button type="submit">Skicka</button>
+        
+
+<footer class="footer">
+    <section class="logo">
+    <img src="assets/logo.png" alt="logo" />
+    <p>Vi firar snart 5 år!</p>
+  </section>
+    <section class="about">
+    <p>Har du några frågor?</p>
+    <p>Ring oss på</p>
+    <p><b>0736644634</b> (08-16 mån-fre)</p>
+    <p>Vi finns på: <b>Sjöportsgatan 5, 417 64 Göteborg</b></p>
+    <a href="about.html">Om oss</a>
+    </section>
+  <section class="socials">
+    <a href="https://www.facebook.com/timmy.bartelius"><img src="assets/facebook.png" alt="facebook"></a>
+    <a href="https://www.linkedin.com/in/timmy-bartelius-9235a2113/"><img src="assets/linkedin.png" alt="linkedin"></a>
+    <a href="https://www.instagram.com/mimmynator1000/"><img src="assets/instagram.png" alt="instagram"></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><img src="assets/youtube.png" alt="youtube"></a>
+  </footer>
+</body>
+</html>
