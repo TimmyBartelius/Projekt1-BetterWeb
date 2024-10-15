@@ -1,6 +1,7 @@
 form {
   width: 300px;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   margin-left: 200px;
   padding: 20px;
   background-color: #af4c4c;
@@ -13,6 +14,7 @@ label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
+  padding-top: 2rem;
 }
 
 input,
@@ -61,13 +63,14 @@ textarea:user-valid {
 .day2-form,
 .day3-form {
   display: flex;
-  flex-grow: 1;
   justify-content: space-around;
+  padding: 1rem;
 }
 input[type="checkbox"] {
   background-color: initial;
   cursor: pointer;
   appearance: auto;
+  padding: 1rem;
 }
 
 @keyframes fade {
