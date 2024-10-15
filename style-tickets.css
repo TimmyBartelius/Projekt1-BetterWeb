@@ -6,6 +6,7 @@ form {
   background-color: #af4c4c;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fade 3s;
 }
 
 label {
@@ -45,28 +46,35 @@ textarea:focus {
   background-color: #f0f8ff;
 }
 
-input:invalid:focus,
-textarea:invalid:focus {
+input:user-invalid,
+textarea:user-invalid {
   border-color: red;
   background-color: #ffe6e6;
 }
 
-input:valid:focus,
-textarea:valid:focus {
+input:user-valid,
+textarea:user-valid {
   border-color: green;
   background-color: #e6ffcc;
 }
-
-#ja,
-#nej,
-#date1,
-#date2,
-#date3 {
-  width: auto;
-  margin: 0 auto;
+.day1-form,
+.day2-form,
+.day3-form {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+input[type="checkbox"] {
+  background-color: initial;
+  cursor: pointer;
+  appearance: auto;
 }
 
-.form2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

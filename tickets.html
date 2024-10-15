@@ -57,20 +57,40 @@
         <input type="adress" id="adress" name="adress" required>
         
         <label for="allergies">Allergier?</label>
-        <textarea id="allergies" name="allergies" required>
+        <textarea id="allergies" name="allergies">
         </textarea>
+        <div class="day1-form">
+        <label for="day1"> Dag 1 - 18:e Oktober</label>
+        <input type="checkbox">
+        <label>Kött?</label>
+        <input type="checkbox">
+        <label>Fisk?</label>
+        <input type="checkbox">
+        <label>Veg?</label>
+        <input type="checkbox">
+        </div>
+        <div class="day2-form">
+            <label for="day2"> Dag 2 - 19:e Oktober</label>
+            <input type="checkbox">
+            <label>Kött?</label>
+            <input type="checkbox">
+            <label>Fisk?</label>
+            <input type="checkbox">
+            <label>Veg?</label>
+            <input type="checkbox">
+            </div>
+        <div class="day3-form">
+            <label for="day3"> Dag 3 - 20:e Oktober</label>
+            <input type="checkbox">
+            <label>Kött?</label>
+            <input type="checkbox">
+            <label>Fisk?</label>
+            <input type="checkbox">
+            <label>Veg?</label>
+            <input type="checkbox">
+        </div>
     </form>
-    <form class="form2" action="/submit" method="post">
-        <label for="ja"> Vill du ha lunch?</label>
-        <p>Ja</p><input id="ja" type="radio" name="ja" value="ja">
-        <label for="nej"></label>
-        <p>Nej</p><input id="nej" type="radio" name="nej" value="nej">
-        
-        <label for="days"> Vilka dagar vill du besöka eventet?</label>
-        <p>18:e</p><input id="date1" type="checkbox">
-        <p>19:e</p><input id="date2" type="checkbox">
-        <p>20:e</p><input id="date3" type="checkbox">
-    </form>
+    
 
     <button type="submit">Skicka</button>
         
