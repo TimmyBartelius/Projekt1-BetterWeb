@@ -2,7 +2,9 @@ form {
   width: 300px;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   background-color: #af4c4c;
   border-radius: 8px;
