@@ -115,27 +115,6 @@ img {
 }
 
 /*MEDIA QUERY*/
-@media (max-width: 1000px) {
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 640px) {
-  .menu {
-    font-size: medium;
-    overflow: auto;
-  }
-}
-@media (max-width: 430px) {
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-items: auto;
-    overflow: auto;
-  }
-}
 
 @media (min-width: 900px) {
   .socials {
