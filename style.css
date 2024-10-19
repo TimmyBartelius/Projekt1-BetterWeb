@@ -147,3 +147,10 @@ li {
     justify-content: space-between;
   }
 }
+@media (max-width: 530px) {
+  .menu {
+    display: flex;
+    flex-shrink: initial;
+    flex-wrap: wrap;
+  }
+}
