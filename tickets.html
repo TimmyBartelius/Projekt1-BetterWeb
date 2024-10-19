@@ -43,6 +43,7 @@
 </header>
   </head>
   <body>
+    <section class="form1">
     <form action="/submit" method="post">
         <label for="name">För- och Efternamn:</label>
         <input type="text" required>
@@ -52,10 +53,11 @@
 
         <label for="adress">Hemadress:</label>
         <input type="adress" required>
-        
-        <label for="allergies">Allergier?</label>
-        <textarea id="allergies" name="allergies">
         </textarea>
+    </form>
+    </section>
+    <section class="form2">
+        <form action="checkbox">
         <div class="day1-form">
         <label for="day1"> Dag 1 - 18:e Oktober</label>
         <input type="checkbox">
@@ -86,7 +88,11 @@
             <label>Veg?</label>
             <input type="checkbox">
         </div>
+        <label for="allergies">Allergier?</label>
+        <textarea id="allergies" name="allergies">
+        </textarea>
     </form>
+    </section>
     
 
     <button type="submit">Skicka</button>
