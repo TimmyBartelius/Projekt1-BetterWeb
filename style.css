@@ -29,6 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   font-size: xx-large;
+  overflow: auto;
 }
 .menu img {
   width: 6rem;
