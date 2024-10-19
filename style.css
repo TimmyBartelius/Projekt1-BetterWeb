@@ -28,6 +28,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: xx-large;
 }
 .menu img {
   width: 6rem;
@@ -113,14 +114,26 @@ img {
 }
 
 /*MEDIA QUERY*/
-
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .menu {
     display: flex;
-    flex-direction: row;
-    overflow: scroll;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
+@media (max-width: 640px) {
+  .menu {
+    font-size: medium;
+  }
+}
+@media (max-width: 430px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-items: auto;
+  }
+}
+
 @media (min-width: 900px) {
   .socials {
     display: grid;
