@@ -48,21 +48,21 @@
       <div class="days">
         <div class="day1">
           <label>
-              <input type="checkbox" name="meal" value="day1">
+              <input type="checkbox" name="day" value="day1">
               <span class="custom-checkbox"></span>
               Dag 1 - 18:e Oktober 08:00-18:00
           </label>
         </div>
         <div class="day2">
           <label>
-              <input type="checkbox" name="meal" value="day2">
+              <input type="checkbox" name="day" value="day2">
               <span class="custom-checkbox"></span>
               Dag 2 - 19:e Oktober 08:00-18:00
           </label>
         </div>
         <div class="day3">
           <label>
-              <input type="checkbox" name="meal" value="day3">
+              <input type="checkbox" name="day" value="day3">
               <span class="custom-checkbox"></span>
               Dag 3 - 20:e Oktober 08:00-18:00
           </label>
@@ -72,50 +72,65 @@
           <h3>Välj lunch-alternativ, kött, fisk eller vegetarisk.</h3>
           <div class="extras">
           <label class="food-alt">
-              <input type="checkbox" name="extras" value="meat">
-              <span class="custom-checkbox"></span>
+              <input type="radio" name="meal1" value="meat">
+              <span class="custom-radio"></span>
               Kött
           </label>
           <label class="food-alt">
-              <input type="checkbox" name="extras" value="fish">
-              <span class="custom-checkbox"></span>
+              <input type="radio" name="meal1" value="fish">
+              <span class="custom-radio"></span>
               Fisk
           </label>
           <label class="food-alt">
-              <input type="checkbox" name="extras" value="veg">
-              <span class="custom-checkbox"></span>
-              Vegetariskt
+              <input type="radio" name="meal1" value="veg">
+              <span class="custom-radio"></span>
+              Veg
           </label>
           <label class="food-alt">
-            <input type="checkbox" name="extras" value="meat">
-            <span class="custom-checkbox"></span>
+            <input type="radio" name="meal1" value="no-food">
+            <span class="custom-radio"></span>
+            Ingen mat
+        </label>
+          <label class="food-alt">
+            <input type="radio" name="meal2" value="meat">
+            <span class="custom-radio"></span>
             Kött
         </label>
         <label class="food-alt">
-            <input type="checkbox" name="extras" value="fish">
-            <span class="custom-checkbox"></span>
+            <input type="radio" name="meal2" value="fish">
+            <span class="custom-radio"></span>
             Fisk
         </label>
         <label class="food-alt">
-            <input type="checkbox" name="extras" value="veg">
-            <span class="custom-checkbox"></span>
-            Vegetariskt
+            <input type="radio" name="meal2" value="veg">
+            <span class="custom-radio"></span>
+            Veg
         </label>
         <label class="food-alt">
-          <input type="checkbox" name="extras" value="meat">
-          <span class="custom-checkbox"></span>
+          <input type="radio" name="meal1" value="no-food">
+          <span class="custom-radio"></span>
+          Ingen mat
+      </label>
+        <label class="food-alt">
+          <input type="radio" name="meal3" value="meat">
+          <span class="custom-radio"></span>
           Kött
       </label>
       <label class="food-alt">
-          <input type="checkbox" name="extras" value="fish">
-          <span class="custom-checkbox"></span>
+          <input type="radio" name="meal3" value="fish">
+          <span class="custom-radio"></span>
           Fisk
       </label>
       <label class="food-alt">
-          <input type="checkbox" name="extras" value="veg">
-          <span class="custom-checkbox"></span>
-          Vegetariskt
+          <input type="radio" name="meal3" value="veg">
+          <span class="custom-radio"></span>
+          Veg
       </label>
+      <label class="food-alt">
+        <input type="radio" name="meal1" value="no-food">
+        <span class="custom-radio"></span>
+        Ingen mat
+    </label>
       </div>
       </div>
   </div>
@@ -123,7 +138,7 @@
   
   
   
-  <form>
+  <form class="allergies">
         <label for="allergies">Allergier?</label>
         <textarea id="allergies" name="allergies">
         </textarea>

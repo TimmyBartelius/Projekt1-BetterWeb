@@ -29,6 +29,10 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
+.allergies,
+textarea {
+  padding: 3rem;
+}
 
 button {
   width: 100%;
@@ -71,14 +75,6 @@ textarea:user-valid {
   padding: 1rem;
   box-sizing: border-box;
 }
-
-.form2 {
-  float: right;
-}
-.form1 {
-  float: left;
-}
-
 @keyframes fade {
   from {
     opacity: 0;
