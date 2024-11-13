@@ -1,0 +1,29 @@
+input[type="checkbox"] {
+  background-color: initial;
+  cursor: pointer;
+  padding: 1rem;
+}
+.radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: right 10px;
+}
+.radio__input {
+  display: none;
+}
+.radio__radio {
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+.radio__radio:after {
+  transform: scale(0);
+}
+.radio__input:checked + .radio__radio:after {
+  transform: scale(1);
+}
