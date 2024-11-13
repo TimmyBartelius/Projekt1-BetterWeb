@@ -23,7 +23,7 @@ body {
 }
 /* HEADER */
 .menu {
-  background-color: #af4c4c;
+  background-color: #bb6565;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
