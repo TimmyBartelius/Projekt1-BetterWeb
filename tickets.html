@@ -45,15 +45,30 @@
 <section class="form2">
       <form action="checkbox">
       <div class="day1-form">
-      <label for="day1"> Dag 1 - 18:e Oktober
-      <input type="checkbox"></label>
-      <label>Kött?
-      <input type="checkbox"></label>
-      <label>Fisk?
-      <input type="checkbox"></label>
-      <label>Veg?
-      <input type="checkbox"></label>
+      <label for="day1">
+      <input type="checkbox" class="day1">Dag 1 - 18:e Oktober</label>
+
+      <form>
+        <label class="radio_label">
+          <input type="radio" name="food" value="meat">
+          <span class="radio_custom"></span>
+          Kött
+        </label>
+      
+        <label class="radio_label">
+          <input type="radio" name="food" value="fish">
+          <span class="radio_custom"></span>
+          Fisk
+        </label>
+      
+        <label class="radio_label">
+          <input type="radio" name="food" value="veg">
+          <span class="radio_custom"></span>
+          Veg
+        </label>
+      </form>
       </div>
+      <form>
       <div class="day2-form">
       <label for="day2"> Dag 2 - 19:e Oktober
       <input type="checkbox"></label>
@@ -64,6 +79,8 @@
       <label>Veg?
       <input type="checkbox"></label>
       </div>
+      </form>
+      <form>
       <div class="day3-form">
         <label for="day3"> Dag 3 - 20:e Oktober
         <input type="checkbox"></label>
@@ -74,6 +91,8 @@
         <label>Veg?
         <input type="checkbox"></label>
         </div>
+      </form>
+      <form>
         <label for="allergies">Allergier?</label>
         <textarea id="allergies" name="allergies">
         </textarea>
