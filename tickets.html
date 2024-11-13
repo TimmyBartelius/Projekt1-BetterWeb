@@ -30,13 +30,13 @@
   <body>
     <section class="form1">
     <form action="/submit" method="post">
-        <label for="name">För- och Efternamn:</label>
+        <label id="name">För- och Efternamn:</label>
         <input type="text" required>
         
-        <label for="email">E-postadress:</label>
+        <label id="email">E-postadress:</label>
         <input type="email" required>
 
-        <label for="adress">Hemadress:</label>
+        <label id="adress">Hemadress:</label>
         <input type="adress" required>
         </textarea>
     </form>
@@ -71,6 +71,7 @@
       <div class="extras-alt">
           <h3>Välj lunch-alternativ, kött, fisk eller vegetarisk.</h3>
           <div class="extras">
+            <h4 class="day-food">Dag 1</h4>
           <label class="food-alt">
               <input type="radio" name="meal1" value="meat">
               <span class="custom-radio"></span>
@@ -86,6 +87,7 @@
               <span class="custom-radio"></span>
               Vegetariskt
           </label>
+          <h4 class="day-food">Dag 2</h4>
           <label class="food-alt">
             <input type="radio" name="meal2" value="meat">
             <span class="custom-radio"></span>
@@ -101,6 +103,7 @@
             <span class="custom-radio"></span>
             Vegetariskt
         </label>
+        <h4 class="day-food">Dag 3</h4>
         <label class="food-alt">
           <input type="radio" name="meal3" value="meat">
           <span class="custom-radio"></span>
@@ -124,7 +127,7 @@
   
   
   <form class="allergies">
-        <label for="allergies">Allergier?</label>
+        <label id="allergies">Allergier?</label>
         <textarea id="allergies" name="allergies">
         </textarea>
   </form>

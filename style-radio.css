@@ -45,7 +45,7 @@ input[type="radio"]:checked + .custom-radio::after {
 }
 
 input[type="checkbox"]:checked + .custom-checkbox::after {
-  content: "✔";
+  content: "";
   font-size: 14px;
   color: #000000;
   position: absolute;
@@ -64,5 +64,10 @@ label {
 
 .extras {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.day-food {
+  border: solid black 4px;
+  padding: 5px;
 }
