@@ -29,8 +29,7 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.allergies,
-textarea {
+.allergies {
   padding: 3rem;
 }
 
