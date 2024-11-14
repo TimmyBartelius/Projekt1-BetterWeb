@@ -30,6 +30,7 @@ textarea {
   box-sizing: border-box;
 }
 .allergies {
+  /*fixa indrag!*/
   padding: 3rem;
 }
 
@@ -57,6 +58,7 @@ textarea:focus {
 
 input:user-invalid,
 textarea:user-invalid {
+  /*andra färger för rätt o fel*/
   border-color: red;
   background-color: #ffe6e6;
 }
