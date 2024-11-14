@@ -1,3 +1,8 @@
+.header {
+  border: 1fr;
+  border-color: black;
+  text-align: center;
+}
 body {
   background-color: rgb(146, 146, 212);
   margin: 0;
@@ -109,6 +114,7 @@ img {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: xx-large;
+
 }
 .day {
   display: flex;
@@ -117,6 +123,7 @@ img {
 }
 
 /*MEDIA QUERY*/
+
 
 @media (min-width: 900px) {
   .socials {
