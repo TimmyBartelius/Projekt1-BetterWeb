@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schema</title>
+    <link rel="stylesheet" href="style-tickets.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-radio.css">
+    <header>
+        <nav class="menu">
+          <div class="logo1"><a href="index.html"><img src="assets/logo.png" alt="logotype" /></a>
+          </div>
+          <ul>
+            <li>
+              <div class="schedule">
+                <a href="schedule.html">Schema
+                </a>
+            </div>
+            </li>
+          </ul>
+    
+          <div>
+            <a href="tickets.html">Biljetter
+            </a>
+          </div>
+        </nav>
+</header>
+  </head>
+  <body>
+    <section class="form1">
+    <form action="/submit" method="post">
+        <label id="name">För- och Efternamn:</label>
+        <input type="text" required>
+        
+        <label id="email">E-postadress:</label>
+        <input type="email" required>
+
+        <label id="adress">Hemadress:</label>
+        <input type="adress" required>
+        </textarea>
+    </form>
+    </section>
+<form>
+    <div class="checkbox-menu">
+      <h2>Välj dag-/dagar</h2>
+      
+      <div class="days">
+        <div class="day1">
+          <label>
+              <input type="checkbox" name="day" value="day1">
+              <span class="custom-checkbox"></span>
+              Dag 1 - 18:e Oktober 08:00-18:00
+          </label>
+        </div>
+        <div class="day2">
+          <label>
+              <input type="checkbox" name="day" value="day2">
+              <span class="custom-checkbox"></span>
+              Dag 2 - 19:e Oktober 08:00-18:00
+          </label>
+        </div>
+        <div class="day3">
+          <label>
+              <input type="checkbox" name="day" value="day3">
+              <span class="custom-checkbox"></span>
+              Dag 3 - 20:e Oktober 08:00-18:00
+          </label>
+        </div>
+      </div>
+      <div class="extras-alt">
+          <h3>Välj lunch-alternativ, kött, fisk eller vegetarisk.</h3>
+          <div class="extras">
+            <h4 class="day-food">Dag 1</h4>
+          <label class="food-alt">
+              <input type="radio" name="meal1" value="meat">
+              <span class="custom-radio"></span>
+              Kött
+          </label>
+          <label class="food-alt">
+              <input type="radio" name="meal1" value="fish">
+              <span class="custom-radio"></span>
+              Fisk
+          </label>
+          <label class="food-alt">
+              <input type="radio" name="meal1" value="veg">
+              <span class="custom-radio"></span>
+              Vegetariskt
+          </label>
+          <h4 class="day-food">Dag 2</h4>
+          <label class="food-alt">
+            <input type="radio" name="meal2" value="meat">
+            <span class="custom-radio"></span>
+            Kött
+        </label>
+        <label class="food-alt">
+            <input type="radio" name="meal2" value="fish">
+            <span class="custom-radio"></span>
+            Fisk
+        </label>
+        <label class="food-alt">
+            <input type="radio" name="meal2" value="veg">
+            <span class="custom-radio"></span>
+            Vegetariskt
+        </label>
+        <h4 class="day-food">Dag 3</h4>
+        <label class="food-alt">
+          <input type="radio" name="meal3" value="meat">
+          <span class="custom-radio"></span>
+          Kött
+      </label>
+      <label class="food-alt">
+          <input type="radio" name="meal3" value="fish">
+          <span class="custom-radio"></span>
+          Fisk
+      </label>
+      <label class="food-alt">
+          <input type="radio" name="meal3" value="veg">
+          <span class="custom-radio"></span>
+          Vegetariskt
+      </label>
+      </div>
+      </div>
+  </div>
+  </form>
+  
+  
+  
+  <form class="allergies">
+        <label id="allergies">Allergier?</label>
+        <textarea id="allergies" name="allergies">
+        </textarea>
+  </form>
+</section>
+    
+
+<button type="submit">Skicka</button>
+        
+
+<footer class="footer">
+    <section class="logo">
+    <img src="assets/logo.png" alt="logo" />
+    <p>Vi firar snart 5 år!</p>
+  </section>
+    <section class="about">
+    <p>Har du några frågor?</p>
+    <p>Ring oss på</p>
+    <p><b>0736644634</b> (08-16 mån-fre)</p>
+    <p>Vi finns på: <b>Sjöportsgatan 5, 417 64 Göteborg</b></p>
+    <a href="about.html">Om oss</a>
+    </section>
+  <section class="socials">
+    <a href="https://www.facebook.com/timmy.bartelius"><img src="assets/facebook.png" alt="facebook"></a>
+    <a href="https://www.linkedin.com/in/timmy-bartelius-9235a2113/"><img src="assets/linkedin.png" alt="linkedin"></a>
+    <a href="https://www.instagram.com/mimmynator1000/"><img src="assets/instagram.png" alt="instagram"></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><img src="assets/youtube.png" alt="youtube"></a>
+  </footer>
+</body>
+</html>
