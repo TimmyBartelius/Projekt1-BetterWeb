@@ -1,3 +1,5 @@
+/* ALLA B inom HTML måste stylas om, då de e ajabaja, använd CSS istället för att göra text "strong"*/
+
 .header {
   border: 1fr;
   border-color: black;
@@ -114,7 +116,6 @@ img {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: xx-large;
-
 }
 .day {
   display: flex;
@@ -123,7 +124,6 @@ img {
 }
 
 /*MEDIA QUERY*/
-
 
 @media (min-width: 900px) {
   .socials {
