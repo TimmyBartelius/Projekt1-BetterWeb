@@ -23,7 +23,6 @@ label {
 
 input,
 textarea {
-  padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -31,7 +30,6 @@ textarea {
 }
 .allergies {
   /*fixa indrag!*/
-  padding: 3rem;
 }
 
 button {
