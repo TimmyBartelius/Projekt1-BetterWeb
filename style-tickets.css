@@ -56,14 +56,13 @@ textarea:focus {
 
 input:user-invalid,
 textarea:user-invalid {
-  /*andra färger för rätt o fel*/
-  border-color: red;
+  border-color: rgb(139, 8, 8);
   background-color: #ffe6e6;
 }
 
 input:user-valid,
 textarea:user-valid {
-  border-color: green;
+  border-color: rgb(9, 175, 9);
   background-color: #e6ffcc;
 }
 .day1-form,
