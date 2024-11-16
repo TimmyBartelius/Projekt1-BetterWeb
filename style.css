@@ -29,6 +29,9 @@ body {
   padding: 3rem;
   font-size: x-large;
 }
+.strong {
+  font-weight: bold;
+}
 /* HEADER */
 .menu {
   background-color: #bb6565;
