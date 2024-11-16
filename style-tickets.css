@@ -28,8 +28,10 @@ textarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.allergies {
+#allergy {
   /*fixa indrag!*/
+  width: 600px;
+  height: 120px;
 }
 
 button {
