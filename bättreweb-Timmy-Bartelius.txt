@@ -1,0 +1,22 @@
+https://github.com/TimmyBartelius/Projektarbete1/tree/main (Github - kod)
+https://timmybartelius.github.io/Projektarbete1/ (Hemsida)
+
+När jag hade min code-review med Maja kändes det ändå helt ok, jag märkte att jag tagit mig vatten över huvudet
+och helt enkelt fokuserat på fel saker i fel ordning - därav blev det mycket time-crunch.
+
+Jag tror jag hade alldeles för höga ambitioner och perfektionisten i mig slogs om att få komma fram.
+Vilket i sin tur resulterade i det här - jag kan säga att jag är verkligen inte nöjd med hur det blev, men
+det är ett steg på vägen. Maja påpekade ett par ändringar jag redan tänkt på sedan innan då det var
+okomplett kod som demonstrerades.
+
+Jag ville för mycket helt enkelt - men jag har försökt göra det bästa av vad som varit möjligt.
+Jag hoppas det kan sträcka sig till ett G.
+
+Jag hade även en code-review med Rami där vi diskuterade samma saker jag tänkt på, han påpekade att
+det var ikoner som inte var tydliga, att bakgrundsfärgen för texten gjorde texten svårläst
+och, som innan nämnt, att jag antagligen lagt för mycket tid på det "färdiga" innan jag blivit klar.
+
+Så, ja, ett skott i foten men, jag försökte så gott jag kunde och jag hoppas det räcker för ett G.
+
+Jag tog mycket hjälp av youtube och AI, men jag försökte göra så mycket eget jag kunde för att faktiskt
+lära mig ett och annat kan jag lägga till.
